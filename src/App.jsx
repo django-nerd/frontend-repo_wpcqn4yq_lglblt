@@ -1,7 +1,13 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Logos from './components/Logos'
-import Features from './components/Features'
+import Problem from './components/Problem'
+import Solution from './components/Solution'
+import CoreFeatures from './components/CoreFeatures'
+import HowItWorks from './components/HowItWorks'
+import UseCases from './components/UseCases'
+import Testimonials from './components/Testimonials'
+import Vision from './components/Vision'
 import CTA from './components/CTA'
 
 function App() {
@@ -13,9 +19,15 @@ function App() {
         <Navbar />
         <Hero />
         <Logos />
-        <Features />
+        <Problem />
+        <Solution />
+        <CoreFeatures />
+        <HowItWorks />
+        <UseCases />
+        <Testimonials />
+        <Vision />
         <CTA />
-        <footer className="py-12 text-center text-white/50 text-sm">© {new Date().getFullYear()} AIOps OS. All rights reserved.</footer>
+        <footer className="py-12 text-center text-white/50 text-sm">© {new Date().getFullYear()} Resolvia. All rights reserved.</footer>
       </div>
     </div>
   )
