@@ -1,4 +1,4 @@
-import { Brain, ServerCog, Workflow, ChartLine, Shield, Sparkles } from 'lucide-react'
+import { Brain, ServerCog, Workflow, LineChart, Shield, Sparkles } from 'lucide-react'
 
 const features = [
   {
@@ -17,7 +17,7 @@ const features = [
     desc: 'Bring docs, wikis, tickets, and product data into one neural index for instant, accurate answers.'
   },
   {
-    icon: ChartLine,
+    icon: LineChart,
     title: 'Operational analytics',
     desc: 'Real-time dashboards track agent performance, SLAs, conversions and business KPIs end-to-end.'
   },
